@@ -1,121 +1,93 @@
-<p align="center">
-<a href="https://bayudwiyansatria.github.io/Development-And-Operations/">
-<img src="https://cdn.bayudwiyansatria.com/assets/logo-full.png" width="100%" />
-</a>
-<br>
-</p>
-<p align="center">
-<a href="#">
-<img src="https://img.shields.io/badge/%20Platforms-Windows%20/%20Linux-blue.svg?style=flat-square" alt="Platforms" />
-</a>
-<a href="https://bayudwiyansatria.github.io/Development-And-Operations/blob/master/LICENSE">
-<img src="https://img.shields.io/badge/%20Licence-MIT-green.svg?style=flat-square" alt="license" />
-</a>
-</p>
-<p align="center">
-<a href="https://github.com/bayudwiyansatria/Development-And-Operations/blob/master/CODE_OF_CONDUCT.md">
-<img src="https://img.shields.io/badge/Community-Code%20of%20Conduct-orange.svg?style=flat-squre" alt="Code of Conduct" />
-</a>
-<a href="https://github.com/bayudwiyansatria/Development-And-Operations/blob/master/SUPPORT.md">
-<img src="https://img.shields.io/badge/Community-Support-red.svg?style=flat-square" alt="Support" />
-</a>
-<a href="https://github.com/bayudwiyansatria/Development-And-Operations/blob/master/CONTRIBUTING.md">
-<img src="https://img.shields.io/badge/%20Community-Contribution-yellow.svg?style=flat-square" alt="Contribution" />
-</a>
-</p>
-<hr>
+# Bayu Dwiyan Satria - Java Project
 
-# Development and Operation
-
+![Platforms](https://img.shields.io/badge/%20Platforms-Windows%20/%20Linux-blue.svg?style=flat-square)
+[![License](https://img.shields.io/badge/%20Licence-MIT-green.svg?style=flat-square)](LICENSE)
+[![Code Of Conduct](https://img.shields.io/badge/Community-Code%20of%20Conduct-orange.svg?style=flat-square)](CODE_OF_CONDUCT.md)
+[![Support](https://img.shields.io/badge/Community-Support-red.svg?style=flat-square)](SUPPORT.md)
+[![Contributing](https://img.shields.io/badge/%20Community-Contribution-yellow.svg?style=flat-square)](CONTRIBUTING.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
-
-![Github Actions](https://github.com/bayudwiyansatria/Development-And-Operations/workflows/Github%20Action/badge.svg)
-
-Global Template Repository for Development and Operations Of Your Projects.
-
-| Key|Values|
-| ------| ----- |
-| Author| Bayu Dwiyan Satria |
-| Email | bayudwiyansatria@gmail.com |
-| Phone | +62-823-9602-9583 |
-| Website | [https://bayudwiyansatria.com](https://bayudwiyansatria.com) |
 
 ## Table of Contents
 
-* [Dependencies](#dependencies)
-* [Prerequisites](#prerequisites)
-* [Installation](#installation)
-* [Development](#development)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Versioning](#versioning)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```shell
-apt-get -y install git
-```
-
-Or
-
-```shell
-yum -y install git
-```
-
 ### Installation
 
-A step by step series of examples that tell you how to get a development env running
+To set up the development environment, follow these steps:
 
-Say what the step will be clone this repository.
+1. Clone the repository:
 
-```shell
-git clone git@github.com:bayudwiyansatria/Development-And-Operations.git
+```bash
+git clone https://github.com/bayudwiyansatria/templates-project-java.git
 ```
 
-## Development
+2. Navigate to the project directory:
 
--*Release 1.0* : **2019, Nov**.
+```shell
+cd templates-project-java
+```
+
+3. Install the project dependencies:
+
+```shell
+./mvnw clean install
+```
 
 ## Usage
 
-Reference and programming instructional materials.
+To run the project, use the following command:
+
+```shell
+cd templates-project-java
+```
+
+```shell
+./mvnw clean install
+```
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+We welcome pull requests! If you want to contribute:
 
-Please make sure to update tests as appropriate.
+Fork the repository.
+Create a new branch for your feature or bugfix.
+Submit a pull request.
+For major changes, please open an issue first to discuss what you'd like to change.
 
-Looking to contribute to our code but need some help? There's a few ways to get information:
+Make sure to update tests as necessary.
 
-* Connect with us on [Twitter](https://twitter.com/bayudsatria)
-* Like us on [Facebook](https://facebook.com/PBayuDSatria)
-* Follow us on [LinkedIn](https://linkedin.com/in/bayudwiyansatria)
-* Subscribe us on [Youtube](https://youtube.com/channel/UCihxWj1rtheK73mGdrf0OiA)
-* Log an issue here on github
+**Get In Touch**
+
+- Connect with us on [Twitter](https://twitter.com/bayudsatria)
+- Like us on [Facebook](https://facebook.com/PBayuDSatria)
+- Follow us on [LinkedIn](https://linkedin.com/in/bayudwiyansatria)
+- Subscribe to us on [YouTube](https://youtube.com/channel/UCihxWj1rtheK73mGdrf0OiA)
+- Log an issue here on GitHub
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bayudwiyansatria/Development-And-Operations/tags).
+We use [SemVer](http://semver.org/) for versioning. For available versions, check the [tags on this repository](https://github.com/bayudwiyansatria/templates-project-java/tags).
 
 ## Authors
 
-* **[Bayu Dwiyan Satria](https://github.com/bayudwiyansatria)** - *Initial work*
+- [Bayu Dwiyan Satria](https://github.com/bayudwiyansatria)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-<p> Copyright &copy; 2017 - 2019 Public Use. All Rights Reserved.
+<p>Copyright &copy; 2021. All Rights Reserved.</p>
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+- Thanks to everyone whose code contributed to this project.
+- Inspiration: Java Security Library Resources

@@ -1,8 +1,8 @@
-name: Main
+name: Development
 on:
   push:
     branches:
-    - master
+    - develop
 jobs:
   #---------------------------------------------------------------------------------------------------------------------
   # Build
@@ -20,10 +20,8 @@ jobs:
   # Deploy
   #---------------------------------------------------------------------------------------------------------------------
   deploy:
-    name: Deploy
+    name: Build
     uses: bayudwiyansatria/.github/.github/workflows/deploy-maven.yml@master
-    needs: 
-    - build
     with:
       JAVA_VERSION: 21
     secrets:

@@ -1,0 +1,92 @@
+---
+#-----------------------------------------------------------------------------------------------------------------------
+# Server Config
+#-----------------------------------------------------------------------------------------------------------------------
+---
+server:
+  port: ${SERVER_PORT:80}
+  servlet:
+    context-path: ${SERVER_CONTEXT_PATH:}
+---
+#-----------------------------------------------------------------------------------------------------------------------
+# Spring Config
+#-----------------------------------------------------------------------------------------------------------------------
+---
+spring:
+  application:
+    name: bayudwiyansatria-springboot-boilerplate
+  main:
+    banner-mode: off
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1MB
+      max-request-size: 10MB
+  data: {}
+  cloud: {}
+---
+#-----------------------------------------------------------------------------------------------------------------------
+# Management Config
+#-----------------------------------------------------------------------------------------------------------------------
+---
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: health, loggers
+  endpoint:
+    health:
+      show-details: always
+---
+#-----------------------------------------------------------------------------------------------------------------------
+# Application Config
+#-----------------------------------------------------------------------------------------------------------------------
+---
+logging:
+  level:
+    org:
+      springframework: INFO
+      hibernate:
+        SQL: INFO
+    com:
+      bayudwiyansatria: INFO
+  file:
+    name: ${logging.file.path}/spring.log
+    path: ${LOG_PATH:./.data/logs}
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%-5level] --- [%thread] %logger{36} : %msg%n"
+---
+#-----------------------------------------------------------------------------------------------------------------------
+# Override
+#-----------------------------------------------------------------------------------------------------------------------
+---
+spring:
+  config:
+    activate:
+      on-profile: development
+logging:
+  level:
+    org:
+      springframework: INFO
+      hibernate:
+        SQL: INFO
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+---
+spring:
+  config:
+    activate:
+      on-profile: staging
+---
+spring:
+  config:
+    activate:
+      on-profile: production
+logging:
+  level:
+    org:
+      springframework: ERROR
