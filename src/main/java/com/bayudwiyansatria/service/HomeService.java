@@ -1,0 +1,58 @@
+package com.bayudwiyansatria.service;
+
+import com.bayudwiyansatria.model.Response;
+import com.bayudwiyansatria.repository.jpa.HomeJpaRepository;
+import com.bayudwiyansatria.repository.mongodb.HomeMongoRepository;
+import org.springframework.stereotype.Service;
+
+/**
+ * HomeMongoRepository
+ * <p>
+ * This interface represents the repository for the Home entity. It extends {@code MongoRepository}
+ * to provide CRUD operations for the Home entity.
+ *
+ * <p>It is annotated with {@code @Repository} to indicate that it is a Spring Data repository.</p>
+ *
+ * @author Bayu Dwiyan Satria
+ * @version 0.0.1
+ * @since 0.0.1
+ */
+@Service
+public class HomeService {
+
+    private final HomeJpaRepository homeRepository;
+    private final HomeMongoRepository homeMongoRepository;
+
+    /**
+     * HomeMongoRepository
+     * <p>
+     * This interface represents the repository for the Home entity. It extends
+     * {@code MongoRepository} to provide CRUD operations for the Home entity.
+     *
+     * <p>It is annotated with {@code @Repository} to indicate that it is a Spring Data
+     * repository.</p>
+     *
+     * @since 0.0.1
+     */
+    public HomeService(
+        HomeJpaRepository homeRepository,
+        HomeMongoRepository homeMongoRepository
+    ) {
+        this.homeRepository = homeRepository;
+        this.homeMongoRepository = homeMongoRepository;
+    }
+
+    /**
+     * Returns a response indicating the success of the operation.
+     *
+     * @return a Response object with a success message, status, and no data
+     * @since 0.0.1
+     */
+    public Response getHome() {
+        return new Response(
+            "Success",
+            true,
+            null
+        );
+    }
+}
