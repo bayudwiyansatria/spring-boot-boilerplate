@@ -17,6 +17,9 @@ on:
         description: Patch Version
         required: true
         default: 1
+permissions:
+  contents: read
+  pull-requests: write
 jobs:
   #---------------------------------------------------------------------------------------------------------------------
   # Build
