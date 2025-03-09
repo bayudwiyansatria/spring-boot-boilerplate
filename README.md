@@ -1,4 +1,4 @@
-# Bayu Dwiyan Satria - Java Project
+# Spring Boot Boilerplate
 
 ![Platforms](https://img.shields.io/badge/%20Platforms-Windows%20/%20Linux-blue.svg?style=flat-square)
 [![License](https://img.shields.io/badge/%20Licence-MIT-green.svg?style=flat-square)](LICENSE)
@@ -26,41 +26,38 @@ To set up the development environment, follow these steps:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/bayudwiyansatria/templates-project-java.git
-```
+   ```bash
+   git clone https://github.com/bayudwiyansatria/spring-boot-boilerplate.git
+   ```
 
 2. Navigate to the project directory:
 
-```shell
-cd templates-project-java
-```
+   ```shell
+   cd spring-boot-boilerplate
+   ```
 
 3. Install the project dependencies:
 
-```shell
-./mvnw clean install
-```
+   ```shell
+   ./mvnw clean install
+   ```
 
 ## Usage
 
 To run the project, use the following command:
 
 ```shell
-cd templates-project-java
-```
-
-```shell
-./mvnw clean install
+./mvnw spring-boot:run
 ```
 
 ## Contributing
 
 We welcome pull requests! If you want to contribute:
 
-Fork the repository.
-Create a new branch for your feature or bugfix.
-Submit a pull request.
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Submit a pull request.
+
 For major changes, please open an issue first to discuss what you'd like to change.
 
 Make sure to update tests as necessary.
@@ -75,7 +72,7 @@ Make sure to update tests as necessary.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For available versions, check the [tags on this repository](https://github.com/bayudwiyansatria/templates-project-java/tags).
+We use [SemVer](http://semver.org/) for versioning. For available versions, check the [tags on this repository](https://github.com/bayudwiyansatria/spring-boot-boilerplate/tags).
 
 ## Authors
 
