@@ -7,6 +7,18 @@
 [![Contributing](https://img.shields.io/badge/%20Community-Contribution-yellow.svg?style=flat-square)](CONTRIBUTING.md)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
+A boilerplate project for building Spring Boot applications. This repository provides a structured starting point with pre-configured dependencies, build scripts, and best practices for developing and deploying Spring Boot applications.
+
+## Features
+
+- Pre-configured Spring Boot setup
+- Ready-to-use Maven build scripts
+- Example code for common use cases
+- Integration with GitHub Actions for CI/CD
+- Comprehensive documentation and guidelines
+
+Get started quickly and efficiently with your Spring Boot projects using this boilerplate.
+
 ## Table of Contents
 
 - [Dependencies](#dependencies)
