@@ -1,4 +1,4 @@
-package com.bayudwiyansatria.exception;
+package com.bayudwiyansatria.spring.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

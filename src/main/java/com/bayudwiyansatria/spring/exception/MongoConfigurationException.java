@@ -1,4 +1,4 @@
-package com.bayudwiyansatria.exception;
+package com.bayudwiyansatria.spring.exception;
 
 /**
  * MongoConfigurationException

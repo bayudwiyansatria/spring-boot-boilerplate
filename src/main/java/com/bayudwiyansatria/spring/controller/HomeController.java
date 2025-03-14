@@ -1,7 +1,7 @@
-package com.bayudwiyansatria.controller;
+package com.bayudwiyansatria.spring.controller;
 
-import com.bayudwiyansatria.model.Response;
-import com.bayudwiyansatria.service.HomeService;
+import com.bayudwiyansatria.spring.model.Response;
+import com.bayudwiyansatria.spring.service.HomeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

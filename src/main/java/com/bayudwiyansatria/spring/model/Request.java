@@ -1,4 +1,4 @@
-package com.bayudwiyansatria.model;
+package com.bayudwiyansatria.spring.model;
 
 import lombok.Data;
 

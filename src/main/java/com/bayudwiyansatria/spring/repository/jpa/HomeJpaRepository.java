@@ -1,6 +1,6 @@
-package com.bayudwiyansatria.repository.jpa;
+package com.bayudwiyansatria.spring.repository.jpa;
 
-import com.bayudwiyansatria.model.entity.HomeEntity;
+import com.bayudwiyansatria.spring.model.entity.HomeEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

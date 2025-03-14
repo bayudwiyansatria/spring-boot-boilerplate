@@ -1,8 +1,8 @@
-package com.bayudwiyansatria.service;
+package com.bayudwiyansatria.spring.service;
 
-import com.bayudwiyansatria.model.Response;
-import com.bayudwiyansatria.repository.jpa.HomeJpaRepository;
-import com.bayudwiyansatria.repository.mongodb.HomeMongoRepository;
+import com.bayudwiyansatria.spring.model.Response;
+import com.bayudwiyansatria.spring.repository.jpa.HomeJpaRepository;
+import com.bayudwiyansatria.spring.repository.mongodb.HomeMongoRepository;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,6 +1,6 @@
-package com.bayudwiyansatria.repository.mongodb.custom;
+package com.bayudwiyansatria.spring.repository.mongodb.custom;
 
-import com.bayudwiyansatria.model.entity.HomeEntity;
+import com.bayudwiyansatria.spring.model.entity.HomeEntity;
 
 /**
  * HomeEntityCustomRepository

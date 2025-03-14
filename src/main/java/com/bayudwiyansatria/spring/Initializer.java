@@ -1,4 +1,4 @@
-package com.bayudwiyansatria;
+package com.bayudwiyansatria.spring;
 
 import jakarta.servlet.ServletContext;
 import org.springframework.web.WebApplicationInitializer;

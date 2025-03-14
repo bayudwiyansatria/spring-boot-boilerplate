@@ -1,6 +1,6 @@
-package com.bayudwiyansatria.repository.mongodb;
+package com.bayudwiyansatria.spring.repository.mongodb;
 
-import com.bayudwiyansatria.model.entity.HomeEntity;
+import com.bayudwiyansatria.spring.model.entity.HomeEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

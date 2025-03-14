@@ -1,4 +1,4 @@
-package com.bayudwiyansatria.config;
+package com.bayudwiyansatria.spring.config;
 
 import javax.sql.DataSource;
 import org.springframework.beans.factory.annotation.Value;
@@ -25,7 +25,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableJpaRepositories(
     basePackages = {
-        "com.bayudwiyansatria.repository.jpa"
+        "com.bayudwiyansatria.spring.repository.jpa"
     }
 )
 @EnableTransactionManagement

@@ -1,7 +1,7 @@
-package com.bayudwiyansatria.repository.jpa.custom.impl;
+package com.bayudwiyansatria.spring.repository.jpa.custom.impl;
 
-import com.bayudwiyansatria.model.entity.HomeEntity;
-import com.bayudwiyansatria.repository.mongodb.custom.HomeEntityCustomRepository;
+import com.bayudwiyansatria.spring.model.entity.HomeEntity;
+import com.bayudwiyansatria.spring.repository.mongodb.custom.HomeEntityCustomRepository;
 
 /**
  * HomeEntityCustomRepositoryImpl

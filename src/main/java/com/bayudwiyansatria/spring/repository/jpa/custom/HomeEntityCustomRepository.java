@@ -1,6 +1,6 @@
-package com.bayudwiyansatria.repository.jpa.custom;
+package com.bayudwiyansatria.spring.repository.jpa.custom;
 
-import com.bayudwiyansatria.model.entity.HomeEntity;
+import com.bayudwiyansatria.spring.model.entity.HomeEntity;
 
 /**
  * HomeEntityCustomRepository

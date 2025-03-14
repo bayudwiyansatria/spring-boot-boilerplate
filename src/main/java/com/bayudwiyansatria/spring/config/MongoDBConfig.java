@@ -1,6 +1,6 @@
-package com.bayudwiyansatria.config;
+package com.bayudwiyansatria.spring.config;
 
-import com.bayudwiyansatria.exception.MongoConfigurationException;
+import com.bayudwiyansatria.spring.exception.MongoConfigurationException;
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClient;
@@ -30,7 +30,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 @Configuration()
 @EnableMongoRepositories(
     basePackages = {
-        "com.bayudwiyansatria.repository.mongodb"
+        "com.bayudwiyansatria.spring.repository.mongodb"
     }
 )
 public class MongoDBConfig extends AbstractMongoClientConfiguration {
