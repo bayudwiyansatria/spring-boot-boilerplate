@@ -67,6 +67,19 @@ jobs:
       with:
         java-version: 21
   #---------------------------------------------------------------------------------------------------------------------
+  # Code Quality
+  #---------------------------------------------------------------------------------------------------------------------
+  code-quality:
+    name: Code Quality
+    needs: 
+    - coverage
+    uses: bayudwiyansatria/.github/.github/workflows/code-analysis-codecov.yml@master
+    with:
+      ARTIFACT_NAME: coverage
+      ARTIFACT_PATH: target/site/jacoco
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+  #---------------------------------------------------------------------------------------------------------------------
   # Deploy
   #---------------------------------------------------------------------------------------------------------------------
   docker:
