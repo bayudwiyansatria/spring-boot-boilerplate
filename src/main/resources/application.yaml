@@ -54,6 +54,13 @@ spring:
       enabled: true
       max-file-size: 1MB
       max-request-size: 10MB
+springdoc:
+  api-docs:
+    enabled: true
+  show-actuator: true
+  swagger-ui:
+    enabled: true
+    path: ${SWAGGER_PATH:/swagger}
 ---
 #-----------------------------------------------------------------------------------------------------------------------
 # Management Config
