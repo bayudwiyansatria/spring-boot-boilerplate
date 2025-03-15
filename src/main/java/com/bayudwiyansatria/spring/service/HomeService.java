@@ -20,9 +20,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class HomeService {
 
-    private final HomeJpaRepository homeRepository;
-    private final HomeMongoRepository homeMongoRepository;
-
     /**
      * HomeMongoRepository
      * <p>
@@ -35,11 +32,7 @@ public class HomeService {
      * @since 0.0.1
      */
     public HomeService(
-        HomeJpaRepository homeRepository,
-        HomeMongoRepository homeMongoRepository
     ) {
-        this.homeRepository = homeRepository;
-        this.homeMongoRepository = homeMongoRepository;
     }
 
     /**
