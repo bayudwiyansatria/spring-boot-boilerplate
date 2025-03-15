@@ -18,8 +18,10 @@ on:
         required: true
         default: 1
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
+  id-token: write
+  pages: write
 jobs:
   #---------------------------------------------------------------------------------------------------------------------
   # Build
