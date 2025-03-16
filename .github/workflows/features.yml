@@ -1,12 +1,16 @@
 name: Features
 on:
+  push:
+    branches:
+    - feature/**
   pull_request:
     branches:
-    - develop
+    - master
     types:
     - opened
     - reopened
 permissions:
+  actions: read
   contents: read
   pull-requests: write
 jobs:
@@ -46,3 +50,14 @@ jobs:
       ARTIFACT_PATH: target/site/jacoco
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+  #---------------------------------------------------------------------------------------------------------------------
+  # Post Job
+  #---------------------------------------------------------------------------------------------------------------------
+  notification:
+    name: Notification
+    runs-on: ubuntu-latest
+    steps:
+    - name: Send Notification to Slack
+      uses: bayudwiyansatria/.github/actions/slack-webhook@master
+      with:
+        slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}
