@@ -141,7 +141,7 @@
     <arguments/>
     <!-- Dependencies Properties -->
     <!-- Plugins Properties -->
-    <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
+    <jacoco-maven-plugin.version>0.8.13</jacoco-maven-plugin.version>
     <!-- Additional Properties -->
     <junit.version>4.13.2</junit.version>
     <jetbrain.version>26.0.2-1</jetbrain.version>
